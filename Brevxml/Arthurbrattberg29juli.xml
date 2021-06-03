@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Elektronisk version av brev från Arthur Brattberg, 29/7 -35</title>
+            <author>Arthur Brattberg</author>
+            <respStmt>
+               <name>Agnes Malm</name>
+               <resp>Transcription to digital text and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+
+
+            <p><rs type="place">Nösund, Orust</rs>
+               <date when="2021-06">juni 2021</date></p>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Tillhör serie med fem brev från <name type="person">Arthur Brattberg</name><ref
+                  target="Arthurbrattberg17juli.xml; Arthurbrattberg7aug.xml; ArthurBrattberg11nov.xml; arthurbrattberg14nov.xml"
+               /></p>
+         </seriesStmt>
+         <sourceDesc>
+
+
+
+            <p>Digitaliserad text, ursprungligen skriven på papper med analog skrivmaskin.</p>
+            <p>Brev från arkitekt Arthur Brattberg till Tegneby Sparbank, Nösund med förslag på
+               tillbyggnad av bankhuset på Nösund.</p>
+         </sourceDesc>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <region>Nösund, Orust</region>
+                  <collection>Dokument om ombyggnad av Tegneby Sparbank 1935, privat
+                     samling</collection>
+
+
+
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projektarbete i kursen Digitalisering av kulturarv inom Masterprogrammet i
+               biblioteks- och informationsvetenskap på Högskolan i Borås. </p>
+            <p>Digitalisering av dokument från <date when="1935">1935</date> om ombyggnad av <name
+                  type="org">Tegneby Sparbank</name> på <name type="place">Nösund</name>, <name
+                  type="place">Orust</name></p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Stavfel i texten har inte korrigerats. Överstrykningar och ändringar gjorda av
+               författaren har noterats.</p>
+         </editorialDecl>
+         <tagsDecl>
+            <rendition rend="handwritten">Part of original text written by hand</rendition>
+            <rendition rend="ul">text-decoration underline</rendition>
+         </tagsDecl>
+         
+      </encodingDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <opener>
+            <byline>
+               <lb/><rs type="role">ARKITEKT</rs>
+               <lb/><rs type="person">ARTHUR BRATTBERG</rs>
+               <lb/><rs type="tel">TELEFEFON 12</rs>
+               <lb/><rs type="pg">POSTGIRO 88581</rs>
+            </byline>
+            <dateline>
+               <lb/><rs type="place">Uddevalla</rs><date when="1935-07-29">den 29/7 1935. </date>
+               <lb/><rs type="adress">Kungsgatan 14</rs>
+            </dateline>
+            <salute>
+               <lb/><name type="org">Tegneby Sparbank</name>
+               <lb/><name type="place" rend="ul">Nösund.</name></salute></opener>
+         <p><lb/>Sänder härmed tvenne förslag å tillbyggnaden. </p>
+         <p><lb/><label>A.</label> i likhet med föregående, men med ett mindre styrelserum i
+            <lb/>bottenvåningen samt uteslutande av utbyggnaden på östra sidan. </p>
+         <p><lb/><label>B.</label> med tillbyggnaden helt utanför samt med styrelserum i nuvaran-
+            <lb/>de banklokal med tillägg av förrummet. Fronten åt väster bibe- <lb/>hålles och
+            göres en liknande på östra sidan, eventuelt med bal- <lb/>kong eller ock kan
+            övervåningen inredas som den förra, men i så <lb/>fall blir det ej möjligt göra
+            banklokalen 3 m. hög mellan golv <lb/>och tak som nu är beräknat. Detta förslag har även
+            den fördel <lb/>att banken kan vara kvar i sin lokal tills den nya blir färdig,
+            <lb/>visserligen med anlitande av elektrisk belysning den senare ti- <lb/>den. Ändring
+            av styrelse- och direktörsrum kan göras sedan den <lb/>nya banklokalen blivit färdig. </p>
+         <closer><lb/>Med största högaktning <lb/><signed rend="handwritten">Arthur
+               Brattberg</signed></closer>
+      </body>
+   </text>
+</TEI>

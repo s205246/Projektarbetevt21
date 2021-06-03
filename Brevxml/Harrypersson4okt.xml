@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Elektronisk version av brev från Harry Persson 4/10 -35</title>
+            <author>Harry Persson</author>
+            <respStmt>
+               <name>Agnes Malm</name>
+               <resp>Transcription to digital text and encoding</resp>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            
+            
+            <p><rs type="place">Nösund, Orust</rs>
+               <date when="2021-06">juni 2021</date></p>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Tillhör serie med två brev från <name type="person">Harry Persson</name> <ref target="Harrypersson7sept.xml"></ref></p>
+         </seriesStmt>
+     
+
+         <sourceDesc>
+
+            <p>Digitaliserad text, ursprungligen skriven på papper med analog skrivmaskin.</p>
+            <p>Brev från Rörledningsentrepenör Harry Persson till Arkitekt Arthur Brattberg,
+               Uddevalla angående installation av sanitära ledningar och apparater i Tegneby
+               Sparbank.</p>
+
+         </sourceDesc>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <region>Nösund, Orust</region>
+                  <collection>Dokument om ombyggnad av Tegneby Sparbank 1935, privat samling</collection>
+                  
+                  
+                  
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Projektarbete i kursen Digitalisering av kulturarv inom Masterprogrammet i
+               biblioteks- och informationsvetenskap på Högskolan i Borås. </p>
+            <p>Digitalisering av dokument från <date when="1935">1935</date> om ombyggnad av <name
+                  type="org">Tegneby Sparbank</name> på <name type="place">Nösund</name>, <name
+                  type="place">Orust</name></p>
+           
+         </projectDesc>
+         <editorialDecl>
+            <p>Stavfel i texten har inte korrigerats. Överstrykningar och ändringar gjorda av
+               författaren har noterats.</p>
+         </editorialDecl>
+         <tagsDecl><rendition xml:id="right" scheme="css">text-align right;</rendition>
+            <rendition xml:id="center" scheme="css">text-align center;</rendition>
+           <rendition rend="handwritten">Part of original text written by hand</rendition>
+            <rendition rend="ul">text-decoration underline</rendition>
+         </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <opener><byline><lb/><rs type="person">HARRY PERSSON </rs><lb/><rs type="role">RÖRLEDNINGSENTREPENÖR
+                  </rs><lb/><rs type="adress">Adr. LYCKORNA </rs><lb/><rs type="tel">Tel. LJUNGSKILE
+               170</rs></byline>
+            <dateline rendition="#right"><rs type="place">Lyckorna</rs>
+               <date when="1935-10-04">den 4 Okt. 1935 </date></dateline>
+         </opener>
+         <label rend="ul" rendition="#center">Anbud</label>
+
+         <p><lb/>över installation av sanitära ledningar i Tegneby Spar- <lb/>bank. <name
+               type="place" rend="ul">Nösund</name>. </p>
+         <p><lb/>Installationen utföres i enl. med nedanstående specifikation. </p>
+         <p><lb/><label rend="ul">Avloppsledningen:</label>
+            <lb/>Asf. och målade gjutna normalrör och delar med erf. ränsluckor på <lb/>stammarna.
+            Skarvarna drives med tåggarn och blydiktas.</p>
+         <p><lb/><label rend="ul">Vattenledningen</label> av prima valv. smidesjärnrör och add.
+            halv. släta <lb/>rördelar. </p>
+         <p><lb/><lb/><label rend="ul">Varmvattenledning</label> av 1,5 m/m kopparrör och rördelar
+            "securex". </p>
+         <p><lb/><label rend="ul">Apparater och armatur:</label>
+         </p>
+         <p><lb/><label rend="ul">I tvättstugan.</label> 1 st. 300 x 76 m/m gjuten asf. golvbrunn. 1
+            st. 19 m/m <lb/>stoppkran med ratt och svängbar utkastarpip. 1 st. 13 m/m pel. tappkran
+            <lb/>med slangförskruvning. </p>
+         <p><lb/><label rend="ul">I köket.</label> 1 st. Olofströms diskbänk av rostfri stålplåt
+            Typ. C. <lb/>2000 x 570 m/m. försedd med ryggstycke, och gavelstycke, samt special-
+            <lb/>vattenlås. 1 st. 13 m/m för. blandare för disklådan. 1 st. 13 m/m förn.
+            <lb/>tappkran med förlängningsstycke och bricka för slaskbacken. </p>
+         <p><lb/><label rend="ul">I styrelserummet.</label> 1 st. tvättställ av porslin 64x46 cm.
+            med följande <lb/>armatur: 1 st. 32 m/m förn. luftventil. 2 st. för. lavoarkranarmärkta
+            <lb/>resp. " Varmt " Kallt " Ett par gjutna målade dolda konsoller. 1st. nor-
+            <lb/>malemaljerad vattenlås med bricka. </p>
+         <p><lb/><label rend="ul">I toilettrummet</label> i bottenv. <lb/>1 st. Komplett w.c. best.
+            av skål av vitt porslin, högsittande gjuten <lb/>spolcistern "Gothia" invånare. emalj.
+            utv. målad, blyspolrör med förbindning, <lb/>samt sits med lock av imit. mahogny. Förn.
+            sitsskruvar och spolrörsklammor. <lb/>1 st. urinalskål av vitt porslin, försedd med
+            förn. tryckkran "ideal" <lb/>samt vattenlås. </p>
+         <p><lb/><label rend="ul">I badrummet</label>
+            <lb/>1 st. golvbrunn 225 x 63 m/m med in o utlopp. 1 st. gjutjärnsbadkar <lb/>inv.
+            porslinsemaljerat, utv. målat, utv. längd 1680 m/m. 1 st. förn. <lb/>bottenventil med
+            kedja och päronfäste. 1 st. förn. blandningsbatteri med <lb/>duschrör och termometer. 1
+            st. tvättställ av porslin 56 x 41 cm.. 1 st. förn. <lb/>lyftventil. 2 st. förn.
+            lavoarkranar märkt resp. "kallt" o "varmt". erf. <lb/>röranslutningar. </p>
+         <p><lb/>I detta anbud ingår även inkoppling och montering av elektrisk pump <lb/>med hydrofor,
+            med anskaffas dessa apparater och bekostas av beställaren. <lb/>Detsamma gäller även för
+            Agaspisen och den tillhörande varmvattenberedaren <lb/>Håltagningar och event.
+            efterlagningar ingår ej i detta anbud. </p>
+         <p><lb/>Installationen utföres komplett färdig enl. ovanstående för ett pris <lb/>av kronor
+            1550: /Ettusenfemhundrafemtio/</p>
+         <closer>
+            <lb/>Högaktningsfullt,
+            <lb/><signed rend="handwritten"><rs type="person">Harry Persson</rs></signed></closer>
+
+         <postscript>
+            <lb/>
+            <label>P.S.</label>
+            <p><lb/><label rend="ul">Alternativ.</label>
+               <lb/>C.T.C. varmvattenberedare rymd 325 L. med inbyggt specialbatteri, samt <lb/>all
+               erf. material för inkoppling, ökar ovanstående anbudssumma med Kronor: 375:
+               <lb/>/trehundrasjuttiofem/</p>
+            <closer><lb/><salute> D.S.</salute></closer>
+         </postscript>
+
+
+
+
+
+
+
+
+      </body>
+   </text>
+</TEI>

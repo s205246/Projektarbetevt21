@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Elektronisk version av brev från Österberg &amp; Bernson 12/9 -35</title>
+            <author>Gustaf Mauritz Bernson</author>
+       
+         <respStmt>
+            <name>Agnes Malm</name>
+            <resp>Transcription to digital text and encoding</resp>
+         </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            
+            <p><rs type="place">Nösund, Orust</rs>
+               <date when="2021-06">juni 2021</date></p>
+         </publicationStmt>
+        
+        
+         <sourceDesc>
+            <p>Digitaliserad text, ursprungligen skriven på papper med analog skrivmaskin.</p>
+            <p>Brev från Gustav Mauritz Bernson på ingeniörsbyrån Österberg &amp; Bernson 
+               i Göteborg till Tegenby Sparbank, Nösund.</p>
+         </sourceDesc>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <region>Nösund, Orust</region>
+                  <collection>Dokument om ombyggnad av Tegneby Sparbank 1935, privat samling</collection>
+                  
+                  
+                  
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <projectDesc>
+           <p>TEI-assignment och del av projektarbete i kursen Digitalisering av kulturarv inom
+              Masterprogrammet i biblioteks- och informationsvetenskap på Högskolan i Borås.</p>
+        </projectDesc>
+        <editorialDecl>
+           <p>Stavfel i texten har inte korrigerats. Överstrykningar och ändringar gjorda av
+              författaren har noterats.</p>
+           
+        </editorialDecl>
+        <tagsDecl>
+           <rendition xml:id="center" scheme="css">text-align center;</rendition>
+           <rendition xml:id="left" scheme="css">text-align left;</rendition>
+           <rendition xml:id="right" scheme="css">text-align right;</rendition>
+           <rendition xml:id="ul">text-decoration underline;</rendition>
+           <rendition xml:id="overstrike">text-decoration overstrike;</rendition>
+           <rendition rend="handwritten">Part of original text written by hand</rendition> 
+           
+           
+           
+        </tagsDecl>
+        
+        
+     </encodingDesc>
+  </teiHeader>
+  <text type="letter">
+      
+       <front>
+          
+          <pb n="1"/><byline n="1" rendition="#center"><lb/><rs type="org">ÖSTERBERG &amp; BERNSON</rs>
+            <lb/>INGENIÖRSBYRÅ
+            <lb/>UTFOR INSTALLATIONER AV
+            <lb/>VÄRMELEDNINGS- &amp; VENTILATIONSANLÄGGNINGAR
+            <lb/>BAD-, ÅNGKÖK-, TVÄTT- &amp; KYLANLÄGGNINGAR
+            <lb/>GAS-, VATTEN- &amp; AVLOPPSLEDNINGAR M M.</byline>
+           
+              
+            <byline n="2" rendition="#left">
+            <lb/>TELEGR. ADR.
+            <lb/>ÖSTBERN
+            <lb/>Postgiro
+            <lb/>41481
+           </byline>
+            
+            <byline n="3" rendition="#right">
+               <lb/>TELEFONER
+            <lb/>45374 - 45375</byline>
+       </front>
+            
+          
+          <body> 
+             <div>
+           <opener>
+              <num type="cardinal" rend="ul">Ref. n:r 3130.</num> 
+              <dateline> 
+                 <lb/><name type="place">GÖTEBORG</name> <date when="1935-09-12">den 12 Sept. 1935.</date>
+            <lb/><rs type="adress">1:sta Långgatan 4</rs></dateline>
+            
+            <salute><lb/><name type="org">Tagneby Sparbank</name>,
+            <lb/><name type="place" rend="ul">Nösund.</name></salute></opener>
+            
+            
+            
+            <p><lb/>Härmed Hava vi nöjet erbjuda oss att utföra värmelednings-
+            <lb/>anläggning i Eder fastighet, i enlighet med bifogade beskrivning
+            <lb/>och ritning N:r 3130, båda av dags dato, till ett sammanlagt pris av
+               <lb/><val rend="ul">Kronor Tvåtusenf-yrahundratjugo. /2.420:—/,</val> 
+            <lb/>komplett i färdigt skick, excl. byggnadsarbeten.
+            <lb/>Under förhoppning att bliva hedrade med Edra v/. order
+            <lb/>hava vi äran tec-kna</p>
+           <closer><lb/><salute> högaktningsfullt</salute>
+              <signed><lb/><name type="org">Österberg &amp; Bernson</name> <lb/><name type="person" rend="handwritten">G,M,Bernson</name> <lb/><gap reason="illegible"></gap></signed>
+           
+           </closer>
+             </div>
+             
+           
+       
+               
+            
+         
+             <div><pb n="2"/><byline><lb/><rs type="org">ÖSTERBERG &amp; BERNSON</rs>
+            <lb/>INGENIÖRSBYRÅ
+            <lb/><rs type="place">GÖTEBORG</rs></byline>
+             <opener rendition="#center"><lb/>Beskrivning
+                <lb/>över
+                <lb/>värmeledningsanläggning
+                <lb/>uti
+                <lb/>Tegneby Sparbanks fastighet,
+                <lb/>tillhörande vårt anbud av den 12/9 1935.</opener>
+            
+            
+            <head rend="ul">Värmeledningen.</head>
+           <p>
+            
+            
+            
+            <lb/><label place="margin" rend="ul">System.</label>	
+            Uppvärmningen sker medelst självcirkulerande varm-
+            <lb/>vatte-n.</p><p>
+            
+               <lb/><label place="margin" rend="ul">Omfattning.</label>	
+            Anläggningen omfattar uppvärmning av samtliga de
+            <lb/>rum i vilka å ritningen markerats radiatorer medelst
+            <lb/>röda rektanglar.</p><p>
+            
+               <lb/><label place="margin" rend="ul"> Temperatur.</label>
+            Vid beräkningen av värmeytorna hava vi utgått ifrån
+            <lb/>att vid en yttre köldgrad av - 20° C. kunna vid-
+            <lb/>makthålla en inre temperatur av + 25° C. i bad-
+            <lb/>rummet samt + 18 à 20° C. i övriga lokaler, som skola
+            <lb/>uppvärmas.</p><p>
+            
+               <lb/><label place="margin" rend="ul">Pannan.</label>	
+            blir en fristående varmvattenpanna av svenskt fab-
+            <lb/>rikat, med en effektiv eldyta av 3,2 kvm., komplett
+            <lb/>med Isolering och plåtmantel samt alla tillbehör <gap reason="deleted" rendition="#overstrike"></gap>
+            <lb/>och luckor, spjäll etc. Pannan förses dessutom med
+            <lb/>erforderlig armatur och utrustning, såsom sotlucka
+            <lb/>i den förlängda rökkanalens mynning, komplett sats
+            <lb/>eldningsredskap, dragregulator av god konstruktion
+            <lb/>med skala och kedja, termometer med skyddshylsa,
+            <lb/>vattenståndsvisare med provkran, avtappningskran med
+            <lb/>slangkoppling samt c:a 3 meter lång gummislang.
+            <lb/>utföras av plåt i tillräcklig storlek och förses
+            <lb/>med erforderliga rörförbindningar*</p><p>
+            
+            
+               <lb/><label place="margin" rend="ul"> Värmarna</label>
+            utgöras av 19 st. plåtradiatorer av svenskt fabrikat,
+            <lb/>660 och 1060 mm. höga, med en sammanlagd effektiv
+            <lb/>värmeyta av c:a 67 kvm., monterade på konsoller.
+            <lb/>Varje radiator förses med regleringsventil av bästa
+            <lb/>konstruktion med handtag och skala, returkoppling med
+            <lb/>avstängning samt luftskruv.
+            <lb/>Exnanslonskärlet
+            <lb/>utföres av plåt i tillräcklig storlek och förses 
+            <lb/>med erforderliga rörförbindningar.</p><p>
+            
+               <lb/><label place="margin" rend="ul">Rörledningar.</label>
+            Från pannan dragas rörledningar fram och upp till
+            <lb/>radiatorerna och från dessa tillbaka till värme-
+            <lb/>pannan. Rören utgöras av prima röda ångrör med till-
+            <lb/>hörande rördelar, rörfästen, rörhylsor, etc. Till
+            <lb/>expansionskärlet drages en expansionsledning och
+            <lb/>från detsamma ned till källargolvet en signalledning,
+            <lb/>den sistnämnda av galv.rör.</p><p>
+            
+               <lb/><label place="margin" rend="ul">Isolering.</label>
+            Huvudledningarna i källaren isoleras omsorgsfullt
+            <lb/>med prima isoleringsmaterialier till skydd mot onödig
+            <lb/>värmeförlust.</p>
+            
+                <pb n="3"/><p rend="left"><lb/><rs type="org">ÖSTERBERG &amp; BERNSON</rs>
+                   <lb/>INGENIÖRSBYRÅ
+                   <lb/><rs type="place">GÖTEBORG</rs></p>
+            <p rendition="#center">- 2 -</p>
+        
+            
+            
+                <p><lb/><label place="margin" rend="ul">Montering.</label>
+            För montering av ovanstående anläggning tillsläppes
+            <lb/>av oss fullt kompetent montör, incl. hantlangning,
+            <lb/>verktyg, kost, logi, etc.</p><p>
+            
+               <lb/><label rend="ul" place="margin">Leverans.</label>
+            Leverans av materialier och verktyg sker fritt när-
+            <lb/>maste ångbåtsbrygga.</p><p>
+            
+               <lb/><label rend="ul" place="margin">Undantagna arbeten.</label>
+            I anbudet ingår icke erforderliga byggnads-
+            <lb/>arbeten, såsom håltagningar, efterlagningar, murning,
+            <lb/>målning, snickerier, grävning, återfyllning, cemen-
+            <lb/>tering, etc.</p>
+            
+           <closer><lb/><rs type="place">Göteborg</rs> <date when="1935-09-12">den 12 sept. 1935.</date>
+              <signed><lb/><name type="org">Österberg &amp; Bernson</name> <lb/><name type="person" rend="handwritten">G,M,Bernson</name> <lb/><gap reason="illegible"></gap></signed></closer></div></body>
+            
+  </text>
+</TEI>

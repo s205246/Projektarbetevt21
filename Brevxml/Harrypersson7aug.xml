@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Elektronisk version av brev från Harry Persson 7/9 1935</title>
+            <author>Harry Persson</author>
+            <respStmt>
+               <name>Agnes Malm</name>
+               <resp>Transcription to digital text and encoding</resp>
+            </respStmt>
+         </titleStmt>
+         
+         <publicationStmt>
+            
+            
+            <p><rs type="place">Nösund, Orust</rs>
+               <date when="2021-06">juni 2021</date></p>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Tillhör serie med två brev från <name type="person">Harry Persson</name> <ref target="Harrypersson4okt.xml"></ref></p>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Digitaliserad text, ursprungligen skriven på papper med analog skrivmaskin.</p>
+            <p>Brev från Rörledningsentrepenör Harry Persson till Arkitekt Arthur Brattberg, Uddevalla 
+               angående installation om värmeledning i Tegneby Sparbank</p>
+          
+            
+         </sourceDesc>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sweden</country>
+                  <region>Nösund, Orust</region>
+                  <collection>Dokument om ombyggnad av Tegneby Sparbank 1935, privat samling</collection>
+                  
+                  
+                  
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+         
+      </fileDesc>
+  
+      <encodingDesc>
+         <projectDesc>
+            <p>Projektarbete i kursen Digitalisering av kulturarv inom Masterprogrammet i
+               biblioteks- och informationsvetenskap på Högskolan i Borås. </p>
+            <p>Digitalisering av dokument från <date when="1935">1935</date> om ombyggnad av
+               <name type="org">Tegneby Sparbank</name> på <name type="place"
+                  >Nösund</name>, <name type="place">Orust</name></p>
+         </projectDesc>
+         <editorialDecl>
+            <p>Stavfel i texten har inte korrigerats. Överstrykningar och ändringar gjorda av
+               författaren har noterats.</p>
+         </editorialDecl>
+         <tagsDecl><rendition xml:id="right" scheme="css">text-align rignt;</rendition>
+            <rendition rend="handwritten">Part of original text written by hand</rendition>
+            <rendition rend="ul">text-decoration underline</rendition>
+      </tagsDecl>
+      </encodingDesc>
+   </teiHeader>
+  <text type="letter">
+      <body>
+         <opener><byline><lb/><rs type="person">HARRY PERSSON 
+            </rs><lb/><rs type="role">RÖRLEDNINGSENTREPENÖR
+            </rs><lb/><rs type="adress">Adr. LYCKORNA
+            </rs><lb/><rs type="tel">Tel. LJUNGSKILE 170</rs></byline>
+            <dateline rendition="#right"><rs type="place">Lyckorna</rs> <date when="1935-09-07">den 7 Sept. 1935 </date></dateline>
+         </opener>
+         
+            
+           <head rend="ul">Anbud</head>
+         <p><lb/>till <rs type="role">Arkitekt</rs> <rs type="person"><abbr type="initial">A.</abbr> Brattberg</rs>,<rs type="place">Uddevalla</rs> över installation av värme-
+            <lb/>ledning i <name type="org">Tegneby Sparbank</name>
+            <lb/><name type="place" rend="ul">Nösund.</name></p>
+         <p><lb/>I pannrummet uppsättes en Klafreströms varmvattenpanna Ser. 2 om 4 kvm.
+            <lb/>eldyta fersedd med 1 st. Samson dragregulator, 1 st, termemeter, 1 st. 1/2"
+            <lb/>kikboxkran för avtappning. Vidare levereras en sats eldredskap och 3 meter
+            <lb/>1/2" gummislang med dubbla vävinlägg. Från denna panna lägges ledningar med
+            <lb/>erf. storlek av prima svenska röda ångrör till 18 st. Hedemora plåtradia-
+            <lb/>torer /typ 2 pel./ innehållande tillsamman 56,48 kvm. värmeyta. Proppade
+            <lb/>avgreningar för blivande värmeytor i dagrummet insättes. Varje radiater
+            <lb/>förses med regleringsventil system /Bäst/ och returanslutningarna med av-
+            <lb/>stängbara metallkoppel. Från expansionskärlet utdrages kokrör genom ytter-
+            <lb/>tak och signalledning av galv. rör till pannrummet. Där rören passera<add place="inline">|</add>genom
+            <lb/>bjälklag påsättes galv. plåthylsor med messingkant. Rörledningarna i
+            <lb/>källare och garderober isoleras med asbest, filt, papp och väv som klistras,
+            <lb/>avslutning på isolering förses med breda messingband.
+         </p><p>  <lb/>Allt arbete som kan hänföras till byggnadsarbete, såsom inklädsel av
+            <lb/>expansionskärlet, murning av rökkanal, håltagningar och event. efterlag-
+            <lb/>ningar ingår ej i detta anbud.
+         </p><p><lb/>Installationen åtager jag mig att utföra kemplett färdig enl. ovanst.
+            <lb/>för ett Pris av Kronor:2300:<add place="below">2.250.</add>	/Tvåtusentrehundra/  </p>
+            
+            
+         <closer rendition="#right">   <lb/><salute>Högaktningsfullt,</salute>
+            <lb/><signed rend="handnote"><rs type="person">Harry Persson</rs></signed></closer>
+      </body>
+            
+       
+
+  </text>
+</TEI>
